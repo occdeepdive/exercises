@@ -1,1 +1,15 @@
-<h2>hello User Widget</h2>
+<!-- ko if: user().loggedIn -->
+<h1 data-bind="text: 'Hello '+user().firstName()"></h1>
+<!-- /ko -->
+
+<!-- ko ifnot: user().loggedIn -->
+<h1>Hello Anonymous User</h1>
+<!-- /ko -->
+
+<!-- ko if: isMorning -->
+<h2>Have a wonderful morning!</h2>
+<!-- /ko -->
+
+<!-- ko ifnot: isMorning -->
+<h2>Have a wonderful afternoon or evening!</h2>
+<!-- /ko -->
