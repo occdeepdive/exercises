@@ -1,0 +1,7 @@
+{
+    "availableToAllPages": true,
+    "name": "Hello User Widget",
+    "javascript": "helloUserWidget",
+    "jsEditable": true,
+    "version": 1
+}
