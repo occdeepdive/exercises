@@ -10,6 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.1",
+    "nconf": "^0.8.5",
     "winston": "^2.4.0"
-  }
+  },
+  "publicUrls": [
+    "/ccstorex/custom/debug",
+    "/ccstorex/custom/hello",
+    "/ccstorex/custom/hello/echo"
+  ],
+  "authenticatedUrls": []
 }
